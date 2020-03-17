@@ -1,0 +1,48 @@
+/* 
+$xxs-screen: 299px;
+$xs-screen: 300px;
+$sm-screen: 576px;
+$md-screen: 768px;
+$lg-screen: 992px;
+$xl-screen: 1024px;
+$xxl-screen: 1200px;
+*/
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.site-diary-navbar {
+  display: flex !important;
+  justify-content: center !important;
+}
+
+#tableSiteList .table thead tr th {
+  color: #fff;
+  padding: 0.4rem;
+}
+#tableSiteList .table thead tr th:first-child {
+  width: 75%;
+}
+#tableSiteList .table tbody tr td {
+  color: #fff;
+  padding: 0.4rem;
+}
+
+.card .card-header {
+  color: #fff;
+}
+.card .card-footer {
+  display: flex;
+  justify-content: flex-end;
+}
+.card .card-footer button:not(:last-child) {
+  margin-right: 0.25rem;
+}
+
+.col-form-label {
+  color: #fff;
+  padding-left: 1.95rem !important;
+}
+
+/*# sourceMappingURL=site-diary.min.css.map */

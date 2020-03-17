@@ -1,0 +1,192 @@
+body {
+    height: 100vh;
+    background-color: #232e42 !important;
+    background-image: url('../../../assets/img/background-image/bg-dark.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: #fff !important;
+
+    &.text-success {
+        color: #28a745 !important;
+    }
+
+    &.text-warning {
+        color: #ffc107 !important;
+    }
+}
+
+.nav {
+    &bar {
+        &-header {
+            height: 50px !important;
+        }
+
+        &-right-menu-width {
+            width: 773px !important;
+        }
+
+        &-menu {
+            &-sub {
+                background-color: #131925 !important;
+
+                &::after {
+                    border-bottom: 9px solid #131925;
+                    border-left: 9px solid #131925;
+                    border-right: 9px solid #131925;
+                }
+            }
+
+            .nav-item {
+                &.active {
+                    &.with-sub {
+                        .nav-link {
+                            &::after {
+                                border-color: #fff !important;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    &-link {
+        color: #fff !important;
+    }
+
+    &-pills {
+        .nav-link {
+            &:hover {
+                background-color: #0168fa !important;
+            }
+        }
+    }
+}
+
+button {
+    cursor: pointer !important;
+}
+
+.pl-5-em {
+    padding-left: 5em !important;
+}
+
+.dropdown-menu {
+    .dropdown-item {
+        &:hover {
+            background-color: #ffffff !important;
+            color: #007bff !important;
+        }
+    }
+}
+
+// .card {
+//     &:hover {
+//         box-shadow: none !important;
+//         cursor: pointer;
+//     }
+// }
+
+.modal-backdrop {
+    z-index: 1 !important;
+}
+
+#ui-datepicker-div {
+    z-index: 1001 !important;
+}
+
+.light-theme {
+    background-image: url('../../../assets/img/background-image/bg-light.png');
+    background-size: 100% 100%;
+    background-color: #fff !important;
+
+    &-default-text-color {
+        color: #444444;
+    }
+
+    .card {
+        background-color: #fff !important;
+        box-shadow: 0 10px 20px rgba(0,0,0,0.07), 0 6px 6px rgba(0,0,0,0.10);
+
+        &:hover {
+            cursor: pointer;
+            box-shadow: 0 14px 28px rgba(0,0,0,0.15), 0 10px 10px rgba(0,0,0,0.18);
+        }
+    }
+
+    h1, h2, h3, h4, h5, h6, span {
+        color: #444444 !important;
+
+        &.text-primary {
+            color: #007bff !important;
+        }
+
+        &.text-success {
+            color: #28a745 !important;
+        }
+
+        &.text-warning {
+            color: #ffc107 !important;
+        }
+    }
+
+    .nav {
+        &-link {
+            color: #007bff !important;
+        }
+
+        &bar {
+            &-header {
+                background-color: #fff !important;
+            }
+
+            &-menu {
+                &-sub {
+                    background-color: #fff !important;
+                }
+                .nav-item {
+                    &.active {
+                        &.with-sub {
+                            .nav-link {
+                                &::after {
+                                    border-color: #007bff !important;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+
+    }
+
+    .dropdown-menu {
+        background: #fff !important;
+
+        .dropdown-item {
+            color: #007bff !important;
+
+            &:hover {
+                background-color: #007bff !important;
+                color: #fff !important;
+
+                .light-theme-default-text-color {
+                    color: #fff !important;
+                }
+            }
+        }
+    }
+
+    .modal {
+        .modal-dialog {
+            .modal-content {
+                background-color: #ffffff !important;
+            }
+        }
+    }
+
+}

@@ -1,0 +1,91 @@
+.content {
+  padding: 25px 15px !important;
+}
+
+.size-small {
+  width: 8rem;
+}
+
+.light-humworks-logo-header {
+  width: 12rem;
+  padding-top: 0.25rem;
+}
+
+.dark-theme-color {
+  background-color: #131925 !important;
+}
+
+.card {
+  background-color: #131925 !important;
+  box-shadow: 0 10px 20px rgba(255, 255, 255, 0.12), 0 6px 6px rgba(255, 255, 255, 0.15);
+}
+.card:hover {
+  cursor: pointer;
+  box-shadow: 0 14px 28px rgba(255, 255, 255, 0.15), 0 10px 10px rgba(255, 255, 255, 0.18);
+}
+.card-top-blue {
+  border-top: 3px solid #007bff !important;
+}
+.card-top-green {
+  border-top: 3px solid #28a745 !important;
+}
+.card-top-yellow {
+  border-top: 3px solid #ffc107 !important;
+}
+.card-title {
+  font-size: 0.75rem;
+  text-transform: uppercase;
+  text-align: center;
+  letter-spacing: 0.5px;
+}
+.card-figure {
+  font-size: 1.4rem;
+  text-align: center;
+}
+.card-body {
+  padding: 10px !important;
+}
+
+.map-lrt {
+  background-image: url("../../../assets/img/background-image/map-lrt-3.png");
+}
+
+.fs-12 {
+  font-size: 12px !important;
+}
+
+.fs-13 {
+  font-size: 18px !important;
+}
+
+.fs-18 {
+  font-size: 18px !important;
+}
+
+.fs-40 {
+  font-size: 40px !important;
+}
+
+.pt-18 {
+  padding-top: 32em !important;
+}
+
+.dropdown-menu {
+  background-color: #131925 !important;
+}
+.dropdown-menu .dropdown-item {
+  color: #fff;
+}
+
+table#tableKeyConcerns thead tr th:nth-child(3) {
+  width: 30%;
+}
+
+.modal .modal-dialog .modal-content {
+  background-color: #232e42 !important;
+}
+.modal .modal-dialog .modal-content .modal-header h1, .modal .modal-dialog .modal-content .modal-header h2, .modal .modal-dialog .modal-content .modal-header h3, .modal .modal-dialog .modal-content .modal-header h4, .modal .modal-dialog .modal-content .modal-header h5, .modal .modal-dialog .modal-content .modal-header h6, .modal .modal-dialog .modal-content .modal-header small {
+  color: #fff;
+}
+
+/*# sourceMappingURL=generic.min.css.map */

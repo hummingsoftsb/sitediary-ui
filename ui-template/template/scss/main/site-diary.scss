@@ -1,0 +1,60 @@
+@import "bases/var",
+        "bases/mixin";
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.site-diary-navbar {
+    display: flex !important;
+    justify-content: center !important;
+}
+
+#tableSiteList {
+    .table {
+        thead {
+            tr {
+                th {
+                    color: #fff;
+                    padding: 0.4rem;
+
+                    &:first-child {
+                        width: 75%;
+                    }
+                }
+            }
+        }
+
+        tbody {
+            tr {
+                td {
+                    color: #fff;
+                    padding: 0.4rem;
+                }
+            }
+        }
+    }
+}
+
+.card {
+    .card-header {
+        color: #fff;
+    }
+
+    .card-footer {
+        display: flex;
+        justify-content: flex-end;
+
+        button {
+            &:not(:last-child) {
+                margin-right: 0.25rem;
+            }
+        }
+    }
+}
+
+.col-form-label {
+    color: #fff;
+    padding-left: 1.95rem !important;
+}
