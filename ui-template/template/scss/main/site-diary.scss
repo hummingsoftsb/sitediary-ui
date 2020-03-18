@@ -54,7 +54,21 @@
     }
 }
 
+.site-diary-tab-content {
+    padding-top: 0 !important;
+}
+
 .col-form-label {
     color: #fff;
     padding-left: 1.95rem !important;
+}
+
+.dropdown-menu {
+    background-color: #5f6d88 !important;
+
+    .dropdown-item {
+        &:hover {
+            color: #3b4863 !important;
+        }
+    }
 }
