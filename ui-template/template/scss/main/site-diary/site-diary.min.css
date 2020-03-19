@@ -56,4 +56,19 @@ $xxl-screen: 1200px;
   color: #3b4863 !important;
 }
 
+input {
+  color: #3b4863 !important;
+}
+
+.input-group-text {
+  color: #3b4863 !important;
+}
+
+.custom-file-label {
+  color: #3b4863 !important;
+}
+.custom-file-label::after {
+  content: none !important;
+}
+
 /*# sourceMappingURL=site-diary.min.css.map */

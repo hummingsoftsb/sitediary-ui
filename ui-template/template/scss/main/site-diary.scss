@@ -72,3 +72,19 @@
         }
     }
 }
+
+input {
+    color: #3b4863 !important;
+}
+
+.input-group-text {
+    color: #3b4863 !important;
+}
+
+.custom-file-label {
+    color: #3b4863 !important;
+
+    &::after {
+        content: none !important;
+    }
+}
