@@ -14,6 +14,17 @@ $xxl-screen: 1200px;
 
 th {
   text-align: center !important;
+  text-transform: uppercase;
+  background-color: #1c2a35;
+}
+
+th, td {
+  border: 1px solid !important;
+  text-align: left;
+}
+
+td.number {
+  text-align: right;
 }
 
 .site-diary-navbar {
@@ -73,6 +84,13 @@ input {
 }
 .custom-file-label::after {
   content: none !important;
+}
+
+.modal-header {
+  border-bottom: 1px solid #5f6d88 !important;
+}
+.modal-footer {
+  border-top: 1px solid #5f6d88 !important;
 }
 
 /*# sourceMappingURL=site-diary.min.css.map */
